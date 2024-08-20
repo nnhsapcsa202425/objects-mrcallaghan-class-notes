@@ -10,5 +10,6 @@ public class TurtleDemo
         crush.penDown();
         crush.forward(50);
         // hello
+        crush.forward(100);
     }
 }
