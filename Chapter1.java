@@ -95,8 +95,22 @@ public class Chapter1
         //crush.forward(40;
         //crush.forwrd(40);
         
+        /*
+         * This is a run-time error. (This code compiles and runs,
+         *  but generates an exception. In most cases, the program crashes.)
+         */
         
+        //crush.forward(1/0);
         
+        /*
+         * This is also a run-time error.  (This code compiles and runs,
+         *      but it doesn't produce the intended result.)
+         *      
+         *      This is a logical error and the turtle turns the wrong way (right instead of left).
+         */
+        // have the turtle turn left and go forward
+        crush.turn(90);
+        crush.forward(50);
         
         
         
